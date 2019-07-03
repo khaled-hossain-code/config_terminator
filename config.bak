@@ -1,0 +1,298 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+  switch_to_tab_1 = <Primary>1
+  switch_to_tab_10 = <Primary>2
+  switch_to_tab_2 = <Primary>3
+  switch_to_tab_3 = <Primary>4
+  switch_to_tab_4 = <Primary>5
+  switch_to_tab_5 = <Primary>6
+  switch_to_tab_6 = <Primary>7
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 59:27
+      size = 1861, 1025
+      title = Kutumbita MicroService
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = Front End Apps, API Gateway & Auth, Organisation & Connect, Chatbot & Message Hub, Survey Service, Super Admin, None
+      last_active_term = 1a6d0d88-dd37-4ef5-ad07-5bbc86cfa312, 5a5ac8fa-b700-4a59-b7ea-49a436f34be0, 21816a3d-ddfa-451c-a38f-673642a5e306, 67e2a2cc-5bab-4a72-a1a8-3648d76c4063, baf8e0d1-8d28-48c4-9c21-b4fcccbf7d99, 248cb5d3-da28-473d-b8c1-28ed73cd88eb, b5bb825d-cde5-43b7-b46d-585f9c489920
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child12]]]
+      order = 2
+      parent = child1
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child13]]]
+      order = 0
+      parent = child12
+      position = 924
+      ratio = 0.498381877023
+      type = HPaned
+    [[[child16]]]
+      order = 1
+      parent = child12
+      position = 924
+      ratio = 0.498381877023
+      type = HPaned
+    [[[child19]]]
+      order = 3
+      parent = child1
+      position = 924
+      ratio = 0.498381877023
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child20]]]
+      order = 0
+      parent = child19
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child23]]]
+      order = 1
+      parent = child19
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child26]]]
+      order = 4
+      parent = child1
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child27]]]
+      order = 0
+      parent = child26
+      position = 927
+      ratio = 0.5
+      type = HPaned
+    [[[child3]]]
+      order = 0
+      parent = child2
+      position = 924
+      ratio = 0.498381877023
+      type = HPaned
+    [[[child31]]]
+      order = 5
+      parent = child1
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child32]]]
+      order = 0
+      parent = child31
+      position = 927
+      ratio = 0.5
+      type = HPaned
+    [[[child35]]]
+      order = 1
+      parent = child31
+      position = 927
+      ratio = 0.5
+      type = HPaned
+    [[[child7]]]
+      order = 1
+      parent = child1
+      position = 491
+      ratio = 0.5
+      type = VPaned
+    [[[child9]]]
+      order = 1
+      parent = child7
+      position = 924
+      ratio = 0.498381877023
+      type = HPaned
+    [[[terminal10]]]
+      directory = /home/khaled/sites/api-gateway-web
+      order = 0
+      parent = child9
+      profile = default
+      title = Api Gateway Web
+      type = Terminal
+      uuid = b2028434-8ba0-4232-a843-1715fa328cea
+    [[[terminal11]]]
+      directory = /home/khaled/sites/api-gateway-mobile
+      order = 1
+      parent = child9
+      profile = default
+      title = Api Gateway Mobile
+      type = Terminal
+      uuid = 2d75e478-d1a0-4bcc-93df-9979da5aa7f0
+    [[[terminal14]]]
+      directory = /home/khaled/sites/kutumbita-organization
+      command = pipenv shell; zsh
+      order = 0
+      parent = child13
+      profile = default
+      title = organisation service
+      type = Terminal
+      uuid = 21816a3d-ddfa-451c-a38f-673642a5e306
+    [[[terminal15]]]
+      directory = /home/khaled/sites/connect-service
+      command = pipenv shell; zsh
+      order = 1
+      parent = child13
+      profile = default
+      title = connect service
+      type = Terminal
+      uuid = c9956a88-9064-4d3b-80cb-cf2cc87cb389
+    [[[terminal17]]]
+      directory = /home/khaled/sites/kutumbita-organization
+      command = pipenv shell; zsh
+      order = 0
+      parent = child16
+      profile = default
+      title = organisation celery
+      type = Terminal
+      uuid = d8b9aa94-7596-4925-90b5-78bad643470f
+    [[[terminal18]]]
+      title = connect celery
+      directory = /home/khaled/sites/connect-service
+      command = pipenv shell; zsh
+      order = 1
+      parent = child16
+      profile = default
+      type = Terminal
+      uuid = fa33fe65-3707-41b0-bf9b-a421e0168063
+    [[[terminal21]]]
+      directory = /home/khaled/sites/Chatbot_Service
+      order = 0
+      parent = child20
+      profile = default
+      title = chatbot service
+      type = Terminal
+      uuid = 67e2a2cc-5bab-4a72-a1a8-3648d76c4063
+    [[[terminal22]]]
+      directory = /home/khaled/sites
+      order = 1
+      parent = child20
+      profile = default
+      title = InfoBip
+      type = Terminal
+      uuid = d30a1196-d267-4191-9b03-03703191b146
+    [[[terminal24]]]
+      directory = /home/khaled/sites/message_hub
+      order = 0
+      parent = child23
+      profile = default
+      title = Message Hub
+      type = Terminal
+      uuid = cc2d6957-e4b4-4305-ba62-f690f16b60a0
+    [[[terminal25]]]
+      directory = /home/khaled/sites
+      order = 1
+      parent = child23
+      profile = default
+      title = Twilio
+      type = Terminal
+      uuid = 5de4a45c-b824-4283-af9f-946407b54ea2
+    [[[terminal28]]]
+      directory = /home/khaled/sites/Survey-Service-Prod
+      command = pipenv shell; zsh
+      order = 0
+      parent = child27
+      profile = default
+      title = survey service
+      type = Terminal
+      uuid = baf8e0d1-8d28-48c4-9c21-b4fcccbf7d99
+    [[[terminal29]]]
+      order = 1
+      parent = child27
+      profile = default
+      type = Terminal
+      uuid = 9cdb3e6d-7fd8-4785-995c-35acba82624e
+    [[[terminal30]]]
+      order = 1
+      parent = child26
+      profile = default
+      type = Terminal
+      uuid = 22360c0d-dcf2-41f9-baf7-4ca11dedacfb
+    [[[terminal33]]]
+      directory = /home/khaled/sites/super-admin-auth
+      command = pipenv shell; zsh
+      order = 0
+      parent = child32
+      profile = default
+      title = Super Admin Auth
+      type = Terminal
+      uuid = 248cb5d3-da28-473d-b8c1-28ed73cd88eb
+    [[[terminal34]]]
+      directory = /home/khaled/sites/api-gateway-superadmin
+      order = 1
+      parent = child32
+      profile = default
+      title = Super Admin Api gateway
+      type = Terminal
+      uuid = 81dc68bb-e5c2-4ea2-ae23-2664a83d59d4
+    [[[terminal36]]]
+      directory = /home/khaled/sites/shifu-admin-dashboard
+      order = 0
+      parent = child35
+      profile = default
+      title = Shifu Admin Dashboard
+      type = Terminal
+      uuid = c05e7f82-752b-470a-948a-2cc3aadf7700
+    [[[terminal37]]]
+      order = 1
+      parent = child35
+      profile = default
+      type = Terminal
+      uuid = 99111109-14b6-461d-aa08-bf5b674d2d41
+    [[[terminal38]]]
+      order = 6
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = b5bb825d-cde5-43b7-b46d-585f9c489920
+    [[[terminal4]]]
+      directory = /home/khaled/sites
+      order = 0
+      parent = child3
+      profile = default
+      title = Socket IO Dashboard
+      type = Terminal
+      uuid = 1a6d0d88-dd37-4ef5-ad07-5bbc86cfa312
+    [[[terminal5]]]
+      directory = /home/khaled/sites/kutumbita-web
+      order = 1
+      parent = child3
+      profile = default
+      title = Manager Dashboard
+      type = Terminal
+      uuid = da729c51-9a2f-4297-81e7-61ca923b6637
+    [[[terminal6]]]
+      directory = /home/khaled/sites
+      order = 1
+      parent = child2
+      profile = default
+      title = Super Admin Dashboard
+      type = Terminal
+      uuid = 4fc08aa2-8514-47e7-8265-fd6a72058afb
+    [[[terminal8]]]
+      command = pipenv shell; zsh
+      directory = /home/khaled/sites/auth-service
+      order = 0
+      parent = child7
+      profile = default
+      title = Auth Service
+      type = Terminal
+      uuid = 5a5ac8fa-b700-4a59-b7ea-49a436f34be0
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
